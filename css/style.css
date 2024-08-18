@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+    color: white;
+}
+header{
+   padding: 10px;
+   margin: 10px;
+   background-color: lightskyblue;
+   text-align: center;
+}
+.main-container{
+margin-left: 10px;
+/* width: 35%; */
+flex: 1;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.hero{
+    background-color: rgb(231, 174, 255);
+    /* width: 90%; */
+    padding: 10vh;
+    height: 10%;
+    margin-bottom: 10px;
+}
+.side{
+    background-color: rgba(119, 223, 28, 0.847);
+    /* width: 90%; */
+    padding: 10vh;
+    height: 17%;
+    margin: 25 0px;
+   
+}
+.content{
+    flex: 2;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.main{
+    height: 70%;
+    background-color: rgb(237, 206, 79);
+    /* background-color: rgb(234, 183, 87);
+    width: 100%;
+    padding: 25vh; */
+    /* margin-left: 10px; */
+}
+.extra{
+    height: 30%;
+    background-color: rgb(121, 117, 117);
+    margin-top: 10px;
+}   
+.related{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+}
+.images{
+    background-color: rgb(10, 154, 89);
+    width: 80%;
+    padding: 3vh;
+    margin-right: 10px;
+}
+.posts{
+    background-color: lightcoral;
+    padding: 5vh;
+    width: 20%;  
+}
+footer{
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
